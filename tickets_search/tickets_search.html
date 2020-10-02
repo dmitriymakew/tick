@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../reset.css">
+	<link rel="stylesheet" href="tickets_search.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<img src="img/logo.svg" alt="" class="logo">
+			<div class="nav">
+				<a href="../tickets/tickets.html">Авиабилеты</a>
+				<a href="../hotels/hotel.html">Жильё</a>
+				<a href="../index.html" id="main_page">Автомобили</a>
+			</div>
+			<div class="login">
+				<p class="val">uah</p>
+				<img src="img/language.svg" alt="" class="language">
+				<a href="#" class="reg">Регистрация</a>
+				<a href="#" class="in">Вход</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="search">
+	<div class="wrapper">
+		<form action="#">
+			<div class="city_block">
+			<input type="text" value="Город получения" class="city">
+			</div>
+			<div class="data_btn_block">
+			<div class="data_block">
+			<input type="text" value="Дата получения" class="take">
+			<input type="text" value="Дата возврата" class="back">
+			</div>
+			<div class="btn"><a href="tickets_search/tickets_search.html">Поиск</a></div>
+			</div>
+		</form>
+	</div>	
+	</section>
+
+	<section class="auto">
+	<div class="wrapper">
+		<div class="filters">
+			<h2>Фильтры</h2>
+			<div class="filter_block">
+				<h3>Вид автомобиля</h3>
+
+				<input type="checkbox" class="plase_checkbox" id="miniv" name="miniv" value="yes">
+				<label for="miniv">Минивены</label>
+
+				<input type="checkbox" class="plase_checkbox" id="sclaas" name="sclaas" value="yes">
+				<label for="sclaas">Средний класс</label>
+
+				<input type="checkbox" class="plase_checkbox" id="ml" name="ml" value="yes">
+				<label for="ml">Малолитражные</label>
+
+				<input type="checkbox" class="plase_checkbox" id="uni" name="uni" value="yes">
+				<label for="uni">Универсальные</label>
+
+				<input type="checkbox" class="plase_checkbox" id="premium" name="premium" value="yes">
+				<label for="premium">Премиум класс</label>
+
+			</div>
+			<div class="filter_block">
+				<h3>Цена</h3>
+
+				<p class="prise_text"><span>От </span>1 620 грн</p>
+				<p class="prise_text"><span>До </span>15 000 грн</p>
+			</div>
+			<div class="filter_block">
+				<h3>Оценка</h3>
+
+				<input type="checkbox" class="plase_checkbox" id="three" name="three" value="yes">
+				<label for="three">От 3 до 5</label>
+
+				<input type="checkbox" class="plase_checkbox" id="five" name="five" value="yes">
+				<label for="five">От 5 до 7</label>
+
+				<input type="checkbox" class="plase_checkbox" id="seven" name="seven" value="yes">
+				<label for="seven">От 7 до 9</label>
+
+				<input type="checkbox" class="plase_checkbox" id="nine" name="nine" value="yes">
+				<label for="nine">Более 9</label>
+
+			</div>
+			<div class="filter_block">
+				<h3>Количество мест</h3>
+
+				<input type="checkbox" class="plase_checkbox" id="two_ps" name="two_ps" value="yes">
+				<label for="two_ps">2 места</label>
+
+				<input type="checkbox" class="plase_checkbox" id="fore_ps" name="fore_ps" value="yes">
+				<label for="fore_ps">4 места</label>
+
+				<input type="checkbox" class="plase_checkbox" id="seven_ps" name="seven_ps" value="yes">
+				<label for="seven_ps">7 места</label>
+
+				<input type="checkbox" class="plase_checkbox" id="ps" name="ps" value="yes">
+				<label for="ps">Более 7</label>
+
+			</div>
+			<div class="filter_block">
+				<h3>Особенности</h3>
+
+				<input type="checkbox" class="plase_checkbox" id="kond" name="kond" value="yes">
+				<label for="kond">Кондиционер</label>
+
+				<input type="checkbox" class="plase_checkbox" id="meh" name="meh" value="yes">
+				<label for="meh">Механическая к.п.</label>
+
+				<input type="checkbox" class="plase_checkbox" id="auto" name="auto" value="yes">
+				<label for="auto">Автоматическая к.п.</label>
+
+				<input type="checkbox" class="plase_checkbox" id="disel" name="disel" value="yes">
+				<label for="disel">Дизель</label>
+			</div>
+		</div>
+
+		<div class="auto_blocks">
+
+			<div class="bottom_line">
+
+			<div class="bread">
+				<a href="#">Автомобили</a> <p>/</p> <a href="№">Лондон</a>
+			</div>
+			<a href="#" class="filters_hiden">Фильтры</a>
+			<p class="finded">Найдено 210 вариантов</p>
+
+			</div>
+			<div class="auto_block">
+				<img class="auto_block_img" src="img/1th.jpg" alt="">
+				<div class="block_deskr">
+					<div class="first_line">
+					<h3>Volvo V40</h3>
+					<div class="mark">
+						<img src="img/stars.png" alt="">
+						<p>9.1</p>
+					</div>
+					</div>
+
+					<div class="second_line">
+						<div class="adv">
+							<img src="img/person.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/bag.png" alt="">
+							<p>2</p>
+						</div>
+						<div class="adv">
+							<img src="img/door.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/kndr.png" alt="">
+							<p>Кондиционер</p>
+						</div>
+					</div>
+
+					<div class="third_line">
+						<p>Механическая коробка передач</p>
+						<p>Получение с полным баком</p>
+					</div>
+
+					<div class="forth_line">
+						<div class="prise">
+							<h4>От 750 грн</h4>
+							<p>цена за 1 сутки</p>
+						</div>
+						<a href="#">Выбрать</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="auto_block">
+				<img class="auto_block_img" src="img/2th.jpg" alt="">
+				<div class="block_deskr">
+					<div class="first_line">
+					<h3>Ford Mondeo</h3>
+					<div class="mark">
+						<img src="img/stars.png" alt="">
+						<p>9.1</p>
+					</div>
+					</div>
+
+					<div class="second_line">
+						<div class="adv">
+							<img src="img/person.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/bag.png" alt="">
+							<p>2</p>
+						</div>
+						<div class="adv">
+							<img src="img/door.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/kndr.png" alt="">
+							<p>Кондиционер</p>
+						</div>
+					</div>
+
+					<div class="third_line">
+						<p>Механическая коробка передач</p>
+						<p>Получение с полным баком</p>
+					</div>
+
+					<div class="forth_line">
+						<div class="prise">
+							<h4>От 600 грн</h4>
+							<p>цена за 1 сутки</p>
+						</div>
+						<a href="#">Выбрать</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="auto_block">
+				<img class="auto_block_img" src="img/3th.jpg" alt="">
+				<div class="block_deskr">
+					<div class="first_line">
+					<h3>Ford Focus C-Max</h3>
+					<div class="mark">
+						<img src="img/stars.png" alt="">
+						<p>9.1</p>
+					</div>
+					</div>
+
+					<div class="second_line">
+						<div class="adv">
+							<img src="img/person.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/bag.png" alt="">
+							<p>2</p>
+						</div>
+						<div class="adv">
+							<img src="img/kndr.png" alt="">
+							<p>Кондиционер</p>
+						</div>
+					</div>
+
+					<div class="third_line">
+						<p>Механическая коробка передач</p>
+						<p>Получение с полным баком</p>
+					</div>
+
+					<div class="forth_line">
+						<div class="prise">
+							<h4>От 800 грн</h4>
+							<p>цена за 1 сутки</p>
+						</div>
+						<a href="#">Выбрать</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="auto_block">
+				<img class="auto_block_img" src="img/4th.jpg" alt="">
+				<div class="block_deskr">
+					<div class="first_line">
+					<h3>Toyota Prius</h3>
+					<div class="mark">
+						<img src="img/stars.png" alt="">
+						<p>9.1</p>
+					</div>
+					</div>
+
+					<div class="second_line">
+						<div class="adv">
+							<img src="img/person.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/bag.png" alt="">
+							<p>2</p>
+						</div>
+						<div class="adv">
+							<img src="img/door.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/kndr.png" alt="">
+							<p>Кондиционер</p>
+						</div>
+					</div>
+
+					<div class="third_line">
+						<p>Механическая коробка передач</p>
+						<p>Получение с полным баком</p>
+					</div>
+
+					<div class="forth_line">
+						<div class="prise">
+							<h4>От 400 грн</h4>
+							<p>цена за 1 сутки</p>
+						</div>
+						<a href="#">Выбрать</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="auto_block">
+				<img class="auto_block_img" src="img/5th.jpg" alt="">
+				<div class="block_deskr">
+					<div class="first_line">
+					<h3>Citroen C4 Grand Picasso</h3>
+					<div class="mark">
+						<img src="img/stars.png" alt="">
+						<p>9.1</p>
+					</div>
+					</div>
+
+					<div class="second_line">
+						<div class="adv">
+							<img src="img/person.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/bag.png" alt="">
+							<p>2</p>
+						</div>
+						<div class="adv">
+							<img src="img/door.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/kndr.png" alt="">
+							<p>Кондиционер</p>
+						</div>
+					</div>
+
+					<div class="third_line">
+						<p>Механическая коробка передач</p>
+						<p>Получение с полным баком</p>
+					</div>
+
+					<div class="forth_line">
+						<div class="prise">
+							<h4>От 480 грн</h4>
+							<p>цена за 1 сутки</p>
+						</div>
+						<a href="#">Выбрать</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="auto_block">
+				<img class="auto_block_img" src="img/6th.jpg" alt="">
+				<div class="block_deskr">
+					<div class="first_line">
+					<h3>BMW 1 Series</h3>
+					<div class="mark">
+						<img src="img/stars.png" alt="">
+						<p>9.1</p>
+					</div>
+					</div>
+
+					<div class="second_line">
+						<div class="adv">
+							<img src="img/person.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/bag.png" alt="">
+							<p>2</p>
+						</div>
+						<div class="adv">
+							<img src="img/door.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/kndr.png" alt="">
+							<p>Кондиционер</p>
+						</div>
+					</div>
+
+					<div class="third_line">
+						<p>Механическая коробка передач</p>
+						<p>Получение с полным баком</p>
+					</div>
+
+					<div class="forth_line">
+						<div class="prise">
+							<h4>От 760 грн</h4>
+							<p>цена за 1 сутки</p>
+						</div>
+						<a href="#">Выбрать</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="auto_block">
+				<img class="auto_block_img" src="img/7th.jpg" alt="">
+				<div class="block_deskr">
+					<div class="first_line">
+					<h3>Ford Galaxy</h3>
+					<div class="mark">
+						<img src="img/stars.png" alt="">
+						<p>9.1</p>
+					</div>
+					</div>
+
+					<div class="second_line">
+						<div class="adv">
+							<img src="img/person.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/bag.png" alt="">
+							<p>2</p>
+						</div>
+						<div class="adv">
+							<img src="img/door.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/kndr.png" alt="">
+							<p>Кондиционер</p>
+						</div>
+					</div>
+
+					<div class="third_line">
+						<p>Механическая коробка передач</p>
+						<p>Получение с полным баком</p>
+					</div>
+
+					<div class="forth_line">
+						<div class="prise">
+							<h4>От 720 грн</h4>
+							<p>цена за 1 сутки</p>
+						</div>
+						<a href="#">Выбрать</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="auto_block">
+				<img class="auto_block_img" src="img/8th.jpg" alt="">
+				<div class="block_deskr">
+					<div class="first_line">
+					<h3>Vauxhall Zafira</h3>
+					<div class="mark">
+						<img src="img/stars.png" alt="">
+						<p>9.1</p>
+					</div>
+					</div>
+
+					<div class="second_line">
+						<div class="adv">
+							<img src="img/person.png" alt="">
+							<p>4</p>
+						</div>
+						<div class="adv">
+							<img src="img/bag.png" alt="">
+							<p>2</p>
+						</div>
+						<div class="adv">
+							<img src="img/door.png" alt="">
+							<p>4</p>
+						</div>
+					</div>
+
+					<div class="third_line">
+						<p>Механическая коробка передач</p>
+						<p>Получение с полным баком</p>
+					</div>
+
+					<div class="forth_line">
+						<div class="prise">
+							<h4>От 560 грн</h4>
+							<p>цена за 1 сутки</p>
+						</div>
+						<a href="#">Выбрать</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	</section>
+
+	<footer>
+	<div class="wrapper">
+		<div class="block">
+			<a href="#">Центр поддержки</a>
+			<a href="#">Оставить отзыв о сайте</a>
+			<a href="#">Про tick.com</a>
+		</div>
+
+		<div class="block">
+			<a href="#">Для инвесторов</a>
+			<a href="#">Правила и условия</a>
+			<a href="#">Зарегистрировать свой объект</a>
+		</div>
+
+		<div class="contacts">
+			<a href="#"><img src="img/inst.svg" alt="app store"></a>
+			<a href="#"><img src="img/fb.svg" alt="play market"></a>
+		</div>
+	</div>	
+	</footer>
+</body>
+</html>
